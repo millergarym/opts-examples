@@ -7,3 +7,11 @@
 ---
 
 Browse this repository for [*opts*](https://github.com/jpillora/opts) usage examples
+
+## Build All Examples
+
+``` bash
+for i in `ls -d eg-*`; do
+  (cd $i; go build)
+done
+```

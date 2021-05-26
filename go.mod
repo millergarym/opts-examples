@@ -1,6 +1,6 @@
 module github.com/jpillora/opts-examples
 
-//replace github.com/jpillora/opts => ../opts
+replace github.com/jpillora/opts => github.com/millergarym/opts v1.3.0
 
 go 1.12
 
